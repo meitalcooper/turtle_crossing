@@ -17,6 +17,7 @@ class Scoreboard(Turtle):
     def update_scoreboard(self):
         """the scoreboard keeps track of which level the user is on."""
         self.clear()
+        self.goto(-220,250)
         self.write(f"Score : {self.score}", align=ALIGNMENT, font=FONT)
 
    
